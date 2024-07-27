@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="red_joker" size="1.000000 1.452000" />
+    <ImageTarget name="queen_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="queen_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="queen_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="queen_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="king_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="king_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="king_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="king_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="jack_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="jack_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="jack_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="jack_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="black_joker" size="1.000000 1.452000" />
+    <ImageTarget name="ace_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="ace_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="ace_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="ace_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="10_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="10_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="10_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="10_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="9_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="9_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="9_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="9_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="8_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="8_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="8_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="8_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="7_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="7_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="7_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="7_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="6_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="6_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="6_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="6_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="5_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="5_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="5_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="5_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="4_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="4_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="4_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="4_of_clubs" size="1.000000 1.452000" />
+    <ImageTarget name="3_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="3_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="3_of_diamonds" size="1.000000 1.452000" />
+    <ImageTarget name="2_of_spades" size="1.000000 1.452000" />
+    <ImageTarget name="2_of_hearts" size="1.000000 1.452000" />
+    <ImageTarget name="2_of_diamonds" size="1.000000 1.452000" />
     <ImageTarget name="3_of_clubs" size="1.000000 1.452000" />
     <ImageTarget name="2_of_clubs" size="2.000000 2.904000" />
   </Tracking>
