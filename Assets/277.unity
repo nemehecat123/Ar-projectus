@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 570214}
   - component: {fileID: 570213}
   - component: {fileID: 570212}
-  - component: {fileID: 570211}
+  - component: {fileID: 570215}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -142,25 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &570211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 570213}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: king_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 570213}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &570212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -231,7 +212,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 570211}
+  mPreview: {fileID: 570215}
 --- !u!4 &570214
 Transform:
   m_ObjectHideFlags: 0
@@ -248,6 +229,25 @@ Transform:
   - {fileID: 667944594}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 570213}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 570213}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1356350
 Mesh:
   m_ObjectHideFlags: 0
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 7946377}
   - component: {fileID: 7946376}
   - component: {fileID: 7946375}
-  - component: {fileID: 7946374}
+  - component: {fileID: 7946378}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -432,25 +432,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7946374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7946373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7946376}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: king_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 7946376}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &7946375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -521,7 +502,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 7946374}
+  mPreview: {fileID: 7946378}
 --- !u!4 &7946377
 Transform:
   m_ObjectHideFlags: 0
@@ -538,6 +519,25 @@ Transform:
   - {fileID: 431804422}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7946378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 7946376}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 7946376}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &34021477
 Mesh:
   m_ObjectHideFlags: 0
@@ -2277,7 +2277,7 @@ GameObject:
   - component: {fileID: 84852421}
   - component: {fileID: 84852420}
   - component: {fileID: 84852419}
-  - component: {fileID: 84852418}
+  - component: {fileID: 84852422}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2285,25 +2285,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &84852418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84852417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 84852420}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: jack_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 84852420}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &84852419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2316,7 +2297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -2374,7 +2355,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 84852418}
+  mPreview: {fileID: 84852422}
 --- !u!4 &84852421
 Transform:
   m_ObjectHideFlags: 0
@@ -2391,6 +2372,25 @@ Transform:
   - {fileID: 181374196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84852422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84852417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 84852420}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: jack_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 84852420}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &91312977
 Mesh:
   m_ObjectHideFlags: 0
@@ -9275,7 +9275,7 @@ GameObject:
   - component: {fileID: 327458889}
   - component: {fileID: 327458888}
   - component: {fileID: 327458887}
-  - component: {fileID: 327458886}
+  - component: {fileID: 327458890}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -9283,25 +9283,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &327458886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327458885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 327458888}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: jack_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 327458888}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &327458887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9314,7 +9295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -9372,7 +9353,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 327458886}
+  mPreview: {fileID: 327458890}
 --- !u!4 &327458889
 Transform:
   m_ObjectHideFlags: 0
@@ -9389,6 +9370,25 @@ Transform:
   - {fileID: 393383007}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &327458890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327458885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 327458888}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: jack_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 327458888}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &336789835
 Mesh:
   m_ObjectHideFlags: 0
@@ -9565,7 +9565,7 @@ GameObject:
   - component: {fileID: 341703719}
   - component: {fileID: 341703718}
   - component: {fileID: 341703717}
-  - component: {fileID: 341703716}
+  - component: {fileID: 341703720}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -9573,25 +9573,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &341703716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341703715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 341703718}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 341703718}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &341703717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9604,7 +9585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -9662,7 +9643,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 341703716}
+  mPreview: {fileID: 341703720}
 --- !u!4 &341703719
 Transform:
   m_ObjectHideFlags: 0
@@ -9679,6 +9660,25 @@ Transform:
   - {fileID: 133577717}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &341703720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341703715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 341703718}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 341703718}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &352937645
 Mesh:
   m_ObjectHideFlags: 0
@@ -12849,7 +12849,7 @@ GameObject:
   - component: {fileID: 474015125}
   - component: {fileID: 474015124}
   - component: {fileID: 474015123}
-  - component: {fileID: 474015122}
+  - component: {fileID: 474015126}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -12857,25 +12857,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &474015122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474015121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 474015124}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 474015124}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &474015123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12888,7 +12869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -12946,7 +12927,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 474015122}
+  mPreview: {fileID: 474015126}
 --- !u!4 &474015125
 Transform:
   m_ObjectHideFlags: 0
@@ -12963,6 +12944,25 @@ Transform:
   - {fileID: 1417726491}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &474015126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474015121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 474015124}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 2_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 474015124}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &475293078
 Mesh:
   m_ObjectHideFlags: 0
@@ -13139,7 +13139,7 @@ GameObject:
   - component: {fileID: 478858804}
   - component: {fileID: 478858803}
   - component: {fileID: 478858802}
-  - component: {fileID: 478858801}
+  - component: {fileID: 478858805}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -13147,25 +13147,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &478858801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478858800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 478858803}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 478858803}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &478858802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13178,7 +13159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -13236,7 +13217,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 478858801}
+  mPreview: {fileID: 478858805}
 --- !u!4 &478858804
 Transform:
   m_ObjectHideFlags: 0
@@ -13253,6 +13234,25 @@ Transform:
   - {fileID: 1367816126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &478858805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478858800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 478858803}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 478858803}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &481069000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14332,7 +14332,7 @@ GameObject:
   - component: {fileID: 506070631}
   - component: {fileID: 506070630}
   - component: {fileID: 506070629}
-  - component: {fileID: 506070628}
+  - component: {fileID: 506070632}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -14340,25 +14340,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &506070628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506070627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 506070630}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 506070630}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &506070629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14371,7 +14352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -14429,7 +14410,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 506070628}
+  mPreview: {fileID: 506070632}
 --- !u!4 &506070631
 Transform:
   m_ObjectHideFlags: 0
@@ -14446,6 +14427,25 @@ Transform:
   - {fileID: 452102411}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506070632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506070627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 506070630}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 8_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 506070630}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &508418128
 Mesh:
   m_ObjectHideFlags: 0
@@ -14622,7 +14622,7 @@ GameObject:
   - component: {fileID: 509202836}
   - component: {fileID: 509202835}
   - component: {fileID: 509202834}
-  - component: {fileID: 509202833}
+  - component: {fileID: 509202837}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -14630,25 +14630,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &509202833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509202832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 509202835}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 509202835}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &509202834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14661,7 +14642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -14719,7 +14700,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 509202833}
+  mPreview: {fileID: 509202837}
 --- !u!4 &509202836
 Transform:
   m_ObjectHideFlags: 0
@@ -14736,6 +14717,25 @@ Transform:
   - {fileID: 902191607}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &509202837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509202832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 509202835}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 509202835}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &516695636
 Mesh:
   m_ObjectHideFlags: 0
@@ -15242,7 +15242,7 @@ GameObject:
   - component: {fileID: 532642350}
   - component: {fileID: 532642349}
   - component: {fileID: 532642348}
-  - component: {fileID: 532642347}
+  - component: {fileID: 532642351}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -15250,25 +15250,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &532642347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532642346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 532642349}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 532642349}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &532642348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15281,7 +15262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -15339,7 +15320,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 532642347}
+  mPreview: {fileID: 532642351}
 --- !u!4 &532642350
 Transform:
   m_ObjectHideFlags: 0
@@ -15356,6 +15337,25 @@ Transform:
   - {fileID: 1249265037}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532642351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532642346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 532642349}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 532642349}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &533682206
 Mesh:
   m_ObjectHideFlags: 0
@@ -16522,7 +16522,7 @@ GameObject:
   - component: {fileID: 557041400}
   - component: {fileID: 557041399}
   - component: {fileID: 557041398}
-  - component: {fileID: 557041397}
+  - component: {fileID: 557041401}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -16530,25 +16530,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &557041397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557041396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 557041399}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 557041399}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &557041398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16561,7 +16542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -16619,7 +16600,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 557041397}
+  mPreview: {fileID: 557041401}
 --- !u!4 &557041400
 Transform:
   m_ObjectHideFlags: 0
@@ -16636,6 +16617,25 @@ Transform:
   - {fileID: 1175371338}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557041401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557041396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 557041399}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 10_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 557041399}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &559815389
 Mesh:
   m_ObjectHideFlags: 0
@@ -17055,7 +17055,7 @@ GameObject:
   - component: {fileID: 590056499}
   - component: {fileID: 590056498}
   - component: {fileID: 590056497}
-  - component: {fileID: 590056496}
+  - component: {fileID: 590056500}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -17063,25 +17063,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &590056496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590056495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 590056498}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 590056498}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &590056497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17094,7 +17075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -17152,7 +17133,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 590056496}
+  mPreview: {fileID: 590056500}
 --- !u!4 &590056499
 Transform:
   m_ObjectHideFlags: 0
@@ -17169,6 +17150,25 @@ Transform:
   - {fileID: 1596456897}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &590056500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590056495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 590056498}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 7_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 590056498}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &600640968
 Mesh:
   m_ObjectHideFlags: 0
@@ -17345,7 +17345,7 @@ GameObject:
   - component: {fileID: 602445156}
   - component: {fileID: 602445155}
   - component: {fileID: 602445154}
-  - component: {fileID: 602445153}
+  - component: {fileID: 602445157}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -17353,25 +17353,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &602445153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602445152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 602445155}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 602445155}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &602445154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17384,7 +17365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -17442,7 +17423,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 602445153}
+  mPreview: {fileID: 602445157}
 --- !u!4 &602445156
 Transform:
   m_ObjectHideFlags: 0
@@ -17459,6 +17440,25 @@ Transform:
   - {fileID: 580730194}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &602445157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602445152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 602445155}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 7_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 602445155}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &612398054
 Mesh:
   m_ObjectHideFlags: 0
@@ -19761,7 +19761,7 @@ GameObject:
   - component: {fileID: 674777608}
   - component: {fileID: 674777607}
   - component: {fileID: 674777606}
-  - component: {fileID: 674777605}
+  - component: {fileID: 674777609}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -19769,25 +19769,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &674777605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674777604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 674777607}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 674777607}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &674777606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19800,7 +19781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -19858,7 +19839,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 674777605}
+  mPreview: {fileID: 674777609}
 --- !u!4 &674777608
 Transform:
   m_ObjectHideFlags: 0
@@ -19875,6 +19856,25 @@ Transform:
   - {fileID: 1053085966}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674777609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674777604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 674777607}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 6_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 674777607}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &675726815
 Mesh:
   m_ObjectHideFlags: 0
@@ -20711,7 +20711,7 @@ GameObject:
   - component: {fileID: 697050940}
   - component: {fileID: 697050939}
   - component: {fileID: 697050938}
-  - component: {fileID: 697050937}
+  - component: {fileID: 697050941}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -20719,25 +20719,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &697050937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 697050936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 697050939}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 697050939}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &697050938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20750,7 +20731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -20808,7 +20789,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 697050937}
+  mPreview: {fileID: 697050941}
 --- !u!4 &697050940
 Transform:
   m_ObjectHideFlags: 0
@@ -20825,6 +20806,25 @@ Transform:
   - {fileID: 1864629805}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &697050941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697050936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 697050939}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 9_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 697050939}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &699091899
 Mesh:
   m_ObjectHideFlags: 0
@@ -21331,7 +21331,7 @@ GameObject:
   - component: {fileID: 709331043}
   - component: {fileID: 709331042}
   - component: {fileID: 709331041}
-  - component: {fileID: 709331040}
+  - component: {fileID: 709331044}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -21339,25 +21339,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &709331040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709331039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 709331042}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 709331042}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &709331041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21370,7 +21351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -21428,7 +21409,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 709331040}
+  mPreview: {fileID: 709331044}
 --- !u!4 &709331043
 Transform:
   m_ObjectHideFlags: 0
@@ -21445,6 +21426,25 @@ Transform:
   - {fileID: 312066184}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &709331044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709331039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 709331042}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 10_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 709331042}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &712882848
 Mesh:
   m_ObjectHideFlags: 0
@@ -22551,7 +22551,7 @@ GameObject:
   - component: {fileID: 770708442}
   - component: {fileID: 770708441}
   - component: {fileID: 770708440}
-  - component: {fileID: 770708439}
+  - component: {fileID: 770708443}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -22559,25 +22559,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &770708439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770708438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 770708441}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: queen_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 770708441}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &770708440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22590,7 +22571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -22648,7 +22629,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 770708439}
+  mPreview: {fileID: 770708443}
 --- !u!4 &770708442
 Transform:
   m_ObjectHideFlags: 0
@@ -22665,6 +22646,25 @@ Transform:
   - {fileID: 760721447}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770708443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770708438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 770708441}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 770708441}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &780321498
 Mesh:
   m_ObjectHideFlags: 0
@@ -25112,7 +25112,7 @@ GameObject:
   - component: {fileID: 833135336}
   - component: {fileID: 833135335}
   - component: {fileID: 833135334}
-  - component: {fileID: 833135333}
+  - component: {fileID: 833135337}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -25120,25 +25120,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &833135333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833135332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 833135335}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 833135335}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &833135334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25151,7 +25132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -25209,7 +25190,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 833135333}
+  mPreview: {fileID: 833135337}
 --- !u!4 &833135336
 Transform:
   m_ObjectHideFlags: 0
@@ -25226,6 +25207,25 @@ Transform:
   - {fileID: 1261076757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &833135337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833135332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 833135335}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 9_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 833135335}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &836337284
 GameObject:
   m_ObjectHideFlags: 0
@@ -25237,7 +25237,7 @@ GameObject:
   - component: {fileID: 836337288}
   - component: {fileID: 836337287}
   - component: {fileID: 836337286}
-  - component: {fileID: 836337285}
+  - component: {fileID: 836337289}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -25245,25 +25245,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &836337285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836337284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 836337287}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: king_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 836337287}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &836337286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25276,7 +25257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -25334,7 +25315,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 836337285}
+  mPreview: {fileID: 836337289}
 --- !u!4 &836337288
 Transform:
   m_ObjectHideFlags: 0
@@ -25351,6 +25332,25 @@ Transform:
   - {fileID: 1700597379}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &836337289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836337284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 836337287}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 836337287}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &850482354
 Mesh:
   m_ObjectHideFlags: 0
@@ -25692,7 +25692,7 @@ GameObject:
   - component: {fileID: 852578957}
   - component: {fileID: 852578956}
   - component: {fileID: 852578955}
-  - component: {fileID: 852578954}
+  - component: {fileID: 852578958}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -25700,25 +25700,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &852578954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852578953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 852578956}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ace_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 852578956}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &852578955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25731,7 +25712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -25789,7 +25770,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 852578954}
+  mPreview: {fileID: 852578958}
 --- !u!4 &852578957
 Transform:
   m_ObjectHideFlags: 0
@@ -25806,6 +25787,25 @@ Transform:
   - {fileID: 1017886752}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &852578958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852578953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 852578956}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ace_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 852578956}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &856086806
 Mesh:
   m_ObjectHideFlags: 0
@@ -26892,7 +26892,7 @@ GameObject:
   - component: {fileID: 907299817}
   - component: {fileID: 907299816}
   - component: {fileID: 907299815}
-  - component: {fileID: 907299814}
+  - component: {fileID: 907299818}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -26900,25 +26900,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &907299814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907299813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 907299816}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: king_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 907299816}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &907299815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26931,7 +26912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -26989,7 +26970,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 907299814}
+  mPreview: {fileID: 907299818}
 --- !u!4 &907299817
 Transform:
   m_ObjectHideFlags: 0
@@ -27006,6 +26987,25 @@ Transform:
   - {fileID: 1083622903}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &907299818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907299813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 907299816}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 907299816}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &907940684
 Mesh:
   m_ObjectHideFlags: 0
@@ -27347,7 +27347,7 @@ GameObject:
   - component: {fileID: 910823677}
   - component: {fileID: 910823676}
   - component: {fileID: 910823675}
-  - component: {fileID: 910823674}
+  - component: {fileID: 910823678}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -27355,25 +27355,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &910823674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910823673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 910823676}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: queen_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 910823676}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &910823675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27386,7 +27367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -27444,7 +27425,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 910823674}
+  mPreview: {fileID: 910823678}
 --- !u!4 &910823677
 Transform:
   m_ObjectHideFlags: 0
@@ -27461,6 +27442,25 @@ Transform:
   - {fileID: 1740888097}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &910823678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910823673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 910823676}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 910823676}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &938806135
 Mesh:
   m_ObjectHideFlags: 0
@@ -27967,7 +27967,7 @@ GameObject:
   - component: {fileID: 946247998}
   - component: {fileID: 946247997}
   - component: {fileID: 946247996}
-  - component: {fileID: 946247995}
+  - component: {fileID: 946247999}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -27975,25 +27975,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &946247995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946247994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 946247997}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 946247997}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &946247996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28006,7 +27987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -28064,7 +28045,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 946247995}
+  mPreview: {fileID: 946247999}
 --- !u!4 &946247998
 Transform:
   m_ObjectHideFlags: 0
@@ -28081,6 +28062,25 @@ Transform:
   - {fileID: 1641001780}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &946247999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946247994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 946247997}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 946247997}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &948921433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28665,7 +28665,7 @@ GameObject:
   - component: {fileID: 974034451}
   - component: {fileID: 974034450}
   - component: {fileID: 974034449}
-  - component: {fileID: 974034448}
+  - component: {fileID: 974034452}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -28673,25 +28673,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &974034448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974034447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 974034450}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 974034450}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &974034449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28704,7 +28685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -28762,7 +28743,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 974034448}
+  mPreview: {fileID: 974034452}
 --- !u!4 &974034451
 Transform:
   m_ObjectHideFlags: 0
@@ -28779,6 +28760,25 @@ Transform:
   - {fileID: 805846956}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &974034452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974034447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 974034450}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 974034450}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &977031765
 Mesh:
   m_ObjectHideFlags: 0
@@ -28955,7 +28955,7 @@ GameObject:
   - component: {fileID: 986186077}
   - component: {fileID: 986186076}
   - component: {fileID: 986186075}
-  - component: {fileID: 986186074}
+  - component: {fileID: 986186078}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -28963,25 +28963,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &986186074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986186073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 986186076}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 986186076}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &986186075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28994,7 +28975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -29052,7 +29033,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 986186074}
+  mPreview: {fileID: 986186078}
 --- !u!4 &986186077
 Transform:
   m_ObjectHideFlags: 0
@@ -29069,6 +29050,25 @@ Transform:
   - {fileID: 1469910876}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986186078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986186073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 986186076}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 10_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 986186076}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &987366793
 Mesh:
   m_ObjectHideFlags: 0
@@ -29740,7 +29740,7 @@ GameObject:
   - component: {fileID: 1011346468}
   - component: {fileID: 1011346467}
   - component: {fileID: 1011346466}
-  - component: {fileID: 1011346465}
+  - component: {fileID: 1011346469}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -29748,25 +29748,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1011346465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011346464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1011346467}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1011346467}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1011346466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29779,7 +29760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -29837,7 +29818,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1011346465}
+  mPreview: {fileID: 1011346469}
 --- !u!4 &1011346468
 Transform:
   m_ObjectHideFlags: 0
@@ -29854,6 +29835,25 @@ Transform:
   - {fileID: 481069001}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011346469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011346464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1011346467}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 2_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1011346467}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1017886751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30623,7 +30623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -30971,7 +30971,7 @@ GameObject:
   - component: {fileID: 1061817111}
   - component: {fileID: 1061817110}
   - component: {fileID: 1061817109}
-  - component: {fileID: 1061817108}
+  - component: {fileID: 1061817112}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -30979,25 +30979,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1061817108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061817107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1061817110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1061817110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1061817109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31010,7 +30991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -31068,7 +31049,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1061817108}
+  mPreview: {fileID: 1061817112}
 --- !u!4 &1061817111
 Transform:
   m_ObjectHideFlags: 0
@@ -31085,6 +31066,25 @@ Transform:
   - {fileID: 1944302480}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1061817112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061817107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1061817110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 6_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1061817110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1064558327
 Mesh:
   m_ObjectHideFlags: 0
@@ -32227,7 +32227,7 @@ GameObject:
   - component: {fileID: 1089805793}
   - component: {fileID: 1089805792}
   - component: {fileID: 1089805791}
-  - component: {fileID: 1089805790}
+  - component: {fileID: 1089805794}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -32235,25 +32235,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1089805790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089805789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1089805792}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ace_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1089805792}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1089805791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32266,7 +32247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -32324,7 +32305,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1089805790}
+  mPreview: {fileID: 1089805794}
 --- !u!4 &1089805793
 Transform:
   m_ObjectHideFlags: 0
@@ -32341,6 +32322,25 @@ Transform:
   - {fileID: 34466562}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1089805794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089805789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1089805792}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ace_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1089805792}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1098121347
 Mesh:
   m_ObjectHideFlags: 0
@@ -33342,7 +33342,7 @@ GameObject:
   - component: {fileID: 1128078391}
   - component: {fileID: 1128078390}
   - component: {fileID: 1128078389}
-  - component: {fileID: 1128078388}
+  - component: {fileID: 1128078392}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -33350,25 +33350,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1128078388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128078387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1128078390}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: queen_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1128078390}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1128078389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33381,7 +33362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -33439,7 +33420,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1128078388}
+  mPreview: {fileID: 1128078392}
 --- !u!4 &1128078391
 Transform:
   m_ObjectHideFlags: 0
@@ -33456,6 +33437,25 @@ Transform:
   - {fileID: 1700130185}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128078392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128078387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1128078390}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1128078390}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1151823127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35438,7 +35438,7 @@ GameObject:
   - component: {fileID: 1223104482}
   - component: {fileID: 1223104481}
   - component: {fileID: 1223104480}
-  - component: {fileID: 1223104479}
+  - component: {fileID: 1223104483}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -35446,25 +35446,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1223104479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223104478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1223104481}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1223104481}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1223104480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35477,7 +35458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -35535,7 +35516,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1223104479}
+  mPreview: {fileID: 1223104483}
 --- !u!4 &1223104482
 Transform:
   m_ObjectHideFlags: 0
@@ -35552,6 +35533,25 @@ Transform:
   - {fileID: 615122188}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1223104483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223104478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1223104481}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 5_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1223104481}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1225587414
 Mesh:
   m_ObjectHideFlags: 0
@@ -36136,7 +36136,7 @@ GameObject:
   - component: {fileID: 1250483211}
   - component: {fileID: 1250483210}
   - component: {fileID: 1250483209}
-  - component: {fileID: 1250483208}
+  - component: {fileID: 1250483212}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -36144,25 +36144,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1250483208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250483207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250483210}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1250483210}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1250483209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36175,7 +36156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -36233,7 +36214,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1250483208}
+  mPreview: {fileID: 1250483212}
 --- !u!4 &1250483211
 Transform:
   m_ObjectHideFlags: 0
@@ -36250,6 +36231,25 @@ Transform:
   - {fileID: 948921434}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1250483212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250483207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1250483210}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 6_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1250483210}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1254393232
 Mesh:
   m_ObjectHideFlags: 0
@@ -36669,7 +36669,7 @@ GameObject:
   - component: {fileID: 1276218396}
   - component: {fileID: 1276218395}
   - component: {fileID: 1276218394}
-  - component: {fileID: 1276218393}
+  - component: {fileID: 1276218397}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -36677,25 +36677,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1276218393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276218392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1276218395}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: jack_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1276218395}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1276218394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36708,7 +36689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -36766,7 +36747,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1276218393}
+  mPreview: {fileID: 1276218397}
 --- !u!4 &1276218396
 Transform:
   m_ObjectHideFlags: 0
@@ -36783,6 +36764,25 @@ Transform:
   - {fileID: 662995431}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1276218397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276218392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1276218395}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: jack_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1276218395}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1284714588
 GameObject:
   m_ObjectHideFlags: 0
@@ -36794,7 +36794,7 @@ GameObject:
   - component: {fileID: 1284714592}
   - component: {fileID: 1284714591}
   - component: {fileID: 1284714590}
-  - component: {fileID: 1284714589}
+  - component: {fileID: 1284714593}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -36802,25 +36802,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1284714589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284714588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1284714591}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1284714591}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1284714590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36833,7 +36814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -36891,7 +36872,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1284714589}
+  mPreview: {fileID: 1284714593}
 --- !u!4 &1284714592
 Transform:
   m_ObjectHideFlags: 0
@@ -36908,6 +36889,25 @@ Transform:
   - {fileID: 1573967471}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1284714593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284714588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1284714591}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 5_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1284714591}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1290112146
 Mesh:
   m_ObjectHideFlags: 0
@@ -37579,7 +37579,7 @@ GameObject:
   - component: {fileID: 1298492277}
   - component: {fileID: 1298492276}
   - component: {fileID: 1298492275}
-  - component: {fileID: 1298492274}
+  - component: {fileID: 1298492278}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -37587,25 +37587,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1298492274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1298492273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1298492276}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1298492276}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1298492275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37618,7 +37599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -37676,7 +37657,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1298492274}
+  mPreview: {fileID: 1298492278}
 --- !u!4 &1298492277
 Transform:
   m_ObjectHideFlags: 0
@@ -37693,6 +37674,25 @@ Transform:
   - {fileID: 309280269}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298492278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298492273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1298492276}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 10_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1298492276}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1299340941
 GameObject:
   m_ObjectHideFlags: 0
@@ -37704,7 +37704,7 @@ GameObject:
   - component: {fileID: 1299340945}
   - component: {fileID: 1299340944}
   - component: {fileID: 1299340943}
-  - component: {fileID: 1299340942}
+  - component: {fileID: 1299340946}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -37712,25 +37712,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1299340942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299340941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1299340944}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ace_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1299340944}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1299340943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37743,7 +37724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -37801,7 +37782,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1299340942}
+  mPreview: {fileID: 1299340946}
 --- !u!4 &1299340945
 Transform:
   m_ObjectHideFlags: 0
@@ -37818,6 +37799,25 @@ Transform:
   - {fileID: 674677263}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299340946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299340941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1299340944}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ace_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1299340944}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1302620862
 Mesh:
   m_ObjectHideFlags: 0
@@ -38819,7 +38819,7 @@ GameObject:
   - component: {fileID: 1352286146}
   - component: {fileID: 1352286145}
   - component: {fileID: 1352286144}
-  - component: {fileID: 1352286143}
+  - component: {fileID: 1352286147}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -38827,25 +38827,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1352286143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352286142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1352286145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1352286145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1352286144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38858,7 +38839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -38916,7 +38897,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1352286143}
+  mPreview: {fileID: 1352286147}
 --- !u!4 &1352286146
 Transform:
   m_ObjectHideFlags: 0
@@ -38933,6 +38914,25 @@ Transform:
   - {fileID: 1151823128}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1352286147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352286142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1352286145}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 7_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1352286145}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1355111245
 Mesh:
   m_ObjectHideFlags: 0
@@ -40255,7 +40255,7 @@ GameObject:
   - component: {fileID: 1404725211}
   - component: {fileID: 1404725210}
   - component: {fileID: 1404725209}
-  - component: {fileID: 1404725208}
+  - component: {fileID: 1404725212}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -40263,25 +40263,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1404725208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404725207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1404725210}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1404725210}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1404725209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40294,7 +40275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -40352,7 +40333,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1404725208}
+  mPreview: {fileID: 1404725212}
 --- !u!4 &1404725211
 Transform:
   m_ObjectHideFlags: 0
@@ -40369,6 +40350,25 @@ Transform:
   - {fileID: 1925000668}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404725212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404725207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1404725210}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1404725210}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1417726490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40812,7 +40812,7 @@ GameObject:
   - component: {fileID: 1469371735}
   - component: {fileID: 1469371734}
   - component: {fileID: 1469371733}
-  - component: {fileID: 1469371732}
+  - component: {fileID: 1469371736}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -40820,25 +40820,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1469371732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469371731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1469371734}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1469371734}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1469371733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40851,7 +40832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -40909,7 +40890,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1469371732}
+  mPreview: {fileID: 1469371736}
 --- !u!4 &1469371735
 Transform:
   m_ObjectHideFlags: 0
@@ -40926,6 +40907,25 @@ Transform:
   - {fileID: 1884711337}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469371736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469371731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1469371734}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 8_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1469371734}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1469910875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41960,7 +41960,7 @@ GameObject:
   - component: {fileID: 1494404519}
   - component: {fileID: 1494404518}
   - component: {fileID: 1494404517}
-  - component: {fileID: 1494404516}
+  - component: {fileID: 1494404520}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -41968,25 +41968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1494404516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494404515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1494404518}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1494404518}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1494404517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41999,7 +41980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -42057,7 +42038,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1494404516}
+  mPreview: {fileID: 1494404520}
 --- !u!4 &1494404519
 Transform:
   m_ObjectHideFlags: 0
@@ -42074,6 +42055,25 @@ Transform:
   - {fileID: 404189664}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494404520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494404515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1494404518}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 7_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1494404518}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1496159615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42532,7 +42532,7 @@ GameObject:
   - component: {fileID: 1502141100}
   - component: {fileID: 1502141099}
   - component: {fileID: 1502141098}
-  - component: {fileID: 1502141097}
+  - component: {fileID: 1502141101}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -42540,25 +42540,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1502141097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502141096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502141099}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9_of_clubs
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1502141099}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1502141098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42571,7 +42552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -42629,7 +42610,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1502141097}
+  mPreview: {fileID: 1502141101}
 --- !u!4 &1502141100
 Transform:
   m_ObjectHideFlags: 0
@@ -42646,6 +42627,25 @@ Transform:
   - {fileID: 1771077393}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502141101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502141096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502141099}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 9_of_clubs
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1502141099}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1502797399
 Mesh:
   m_ObjectHideFlags: 0
@@ -43950,7 +43950,7 @@ GameObject:
   - component: {fileID: 1571893535}
   - component: {fileID: 1571893534}
   - component: {fileID: 1571893533}
-  - component: {fileID: 1571893532}
+  - component: {fileID: 1571893536}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -43958,25 +43958,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1571893532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571893531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1571893534}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1571893534}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1571893533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43989,7 +43970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -44047,7 +44028,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1571893532}
+  mPreview: {fileID: 1571893536}
 --- !u!4 &1571893535
 Transform:
   m_ObjectHideFlags: 0
@@ -44064,6 +44045,25 @@ Transform:
   - {fileID: 627705422}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1571893536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571893531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1571893534}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 8_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1571893534}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1573967470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45788,7 +45788,7 @@ GameObject:
   - component: {fileID: 1627276378}
   - component: {fileID: 1627276377}
   - component: {fileID: 1627276376}
-  - component: {fileID: 1627276375}
+  - component: {fileID: 1627276379}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -45796,25 +45796,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1627276375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627276374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1627276377}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: queen_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1627276377}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1627276376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45827,7 +45808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -45885,7 +45866,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1627276375}
+  mPreview: {fileID: 1627276379}
 --- !u!4 &1627276378
 Transform:
   m_ObjectHideFlags: 0
@@ -45902,6 +45883,25 @@ Transform:
   - {fileID: 1496159616}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627276379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627276374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1627276377}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1627276377}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1639807909
 Mesh:
   m_ObjectHideFlags: 0
@@ -49099,7 +49099,7 @@ GameObject:
   - component: {fileID: 1725748906}
   - component: {fileID: 1725748905}
   - component: {fileID: 1725748904}
-  - component: {fileID: 1725748903}
+  - component: {fileID: 1725748907}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -49107,25 +49107,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1725748903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725748902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1725748905}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1725748905}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1725748904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49138,7 +49119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -49196,7 +49177,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1725748903}
+  mPreview: {fileID: 1725748907}
 --- !u!4 &1725748906
 Transform:
   m_ObjectHideFlags: 0
@@ -49213,6 +49194,25 @@ Transform:
   - {fileID: 1505794425}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1725748907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725748902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1725748905}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 5_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1725748905}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1738327297
 Mesh:
   m_ObjectHideFlags: 0
@@ -49659,7 +49659,7 @@ GameObject:
   - component: {fileID: 1750747919}
   - component: {fileID: 1750747918}
   - component: {fileID: 1750747917}
-  - component: {fileID: 1750747916}
+  - component: {fileID: 1750747920}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -49667,25 +49667,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1750747916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750747915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1750747918}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ace_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1750747918}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1750747917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49698,7 +49679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -49756,7 +49737,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1750747916}
+  mPreview: {fileID: 1750747920}
 --- !u!4 &1750747919
 Transform:
   m_ObjectHideFlags: 0
@@ -49773,6 +49754,25 @@ Transform:
   - {fileID: 148680916}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1750747920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750747915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1750747918}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ace_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1750747918}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1751037329
 Mesh:
   m_ObjectHideFlags: 0
@@ -51202,7 +51202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -52153,7 +52153,7 @@ GameObject:
   - component: {fileID: 1872150400}
   - component: {fileID: 1872150399}
   - component: {fileID: 1872150398}
-  - component: {fileID: 1872150397}
+  - component: {fileID: 1872150401}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -52161,25 +52161,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1872150397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872150396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1872150399}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1872150399}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1872150398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52192,7 +52173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -52250,7 +52231,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1872150397}
+  mPreview: {fileID: 1872150401}
 --- !u!4 &1872150400
 Transform:
   m_ObjectHideFlags: 0
@@ -52267,6 +52248,25 @@ Transform:
   - {fileID: 1981707701}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1872150401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872150396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1872150399}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 5_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1872150399}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1881355170
 Mesh:
   m_ObjectHideFlags: 0
@@ -53181,7 +53181,7 @@ GameObject:
   - component: {fileID: 1892651447}
   - component: {fileID: 1892651446}
   - component: {fileID: 1892651445}
-  - component: {fileID: 1892651444}
+  - component: {fileID: 1892651448}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -53189,25 +53189,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1892651444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892651443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1892651446}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: jack_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1892651446}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1892651445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53220,7 +53201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -53278,7 +53259,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1892651444}
+  mPreview: {fileID: 1892651448}
 --- !u!4 &1892651447
 Transform:
   m_ObjectHideFlags: 0
@@ -53295,6 +53276,25 @@ Transform:
   - {fileID: 2144883469}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892651448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892651443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1892651446}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: jack_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1892651446}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1899938603
 Mesh:
   m_ObjectHideFlags: 0
@@ -54947,7 +54947,7 @@ GameObject:
   - component: {fileID: 1975348151}
   - component: {fileID: 1975348150}
   - component: {fileID: 1975348149}
-  - component: {fileID: 1975348148}
+  - component: {fileID: 1975348152}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -54955,25 +54955,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1975348148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975348147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1975348150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2_of_spades
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1975348150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1975348149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54986,7 +54967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -55044,7 +55025,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1975348148}
+  mPreview: {fileID: 1975348152}
 --- !u!4 &1975348151
 Transform:
   m_ObjectHideFlags: 0
@@ -55061,6 +55042,25 @@ Transform:
   - {fileID: 1378007415}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1975348152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975348147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1975348150}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 2_of_spades
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1975348150}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1981707700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55315,7 +55315,7 @@ GameObject:
   - component: {fileID: 1988325273}
   - component: {fileID: 1988325272}
   - component: {fileID: 1988325271}
-  - component: {fileID: 1988325270}
+  - component: {fileID: 1988325274}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -55323,25 +55323,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1988325270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988325269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1988325272}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 1988325272}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1988325271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55412,7 +55393,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1988325270}
+  mPreview: {fileID: 1988325274}
 --- !u!4 &1988325273
 Transform:
   m_ObjectHideFlags: 0
@@ -55429,6 +55410,25 @@ Transform:
   - {fileID: 298154891}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1988325274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988325269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1988325272}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 8_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 1988325272}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &1996632085
 Mesh:
   m_ObjectHideFlags: 0
@@ -55920,7 +55920,7 @@ GameObject:
   - component: {fileID: 2022832505}
   - component: {fileID: 2022832504}
   - component: {fileID: 2022832503}
-  - component: {fileID: 2022832502}
+  - component: {fileID: 2022832506}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -55928,25 +55928,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2022832502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022832501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2022832504}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9_of_hearts
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 2022832504}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2022832503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55959,7 +55940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -56017,7 +55998,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2022832502}
+  mPreview: {fileID: 2022832506}
 --- !u!4 &2022832505
 Transform:
   m_ObjectHideFlags: 0
@@ -56034,6 +56015,25 @@ Transform:
   - {fileID: 900486751}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022832506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022832501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2022832504}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 9_of_hearts
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 2022832504}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &2023536479
 Mesh:
   m_ObjectHideFlags: 0
@@ -58025,7 +58025,7 @@ GameObject:
   - component: {fileID: 2096374090}
   - component: {fileID: 2096374089}
   - component: {fileID: 2096374088}
-  - component: {fileID: 2096374087}
+  - component: {fileID: 2096374091}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -58033,25 +58033,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2096374087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096374086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2096374089}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6_of_diamonds
-  mDatasetName: Vuforia/projekt.xml
-  mCastedBehaviour: {fileID: 2096374089}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2096374088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58064,7 +58045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -58122,7 +58103,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2096374087}
+  mPreview: {fileID: 2096374091}
 --- !u!4 &2096374090
 Transform:
   m_ObjectHideFlags: 0
@@ -58139,6 +58120,25 @@ Transform:
   - {fileID: 2008687364}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096374091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096374086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2096374089}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 6_of_diamonds
+  mDatasetName: Vuforia/projekt.xml
+  mCastedBehaviour: {fileID: 2096374089}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!43 &2096518674
 Mesh:
   m_ObjectHideFlags: 0
