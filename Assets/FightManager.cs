@@ -10,14 +10,66 @@ public class FightManager : MonoBehaviour
 
     private Dictionary<string, int> cardValues = new Dictionary<string, int>
     {
-        { "Ace of Spades", 14 }, // Assuming Ace is the highest
-        { "2 of Spades", 2 },
+        //hearts
+        { "1_of_hearts", 14 }, 
+        { "2_of_hearts", 2 },
         { "3_of_hearts", 3 },
-        { "jack_of_hearts", 5},
+        { "4_of_hearts", 4 },
+        { "5_of_hearts", 5 },
+        { "6_of_hearts", 6 },
+        { "7_of_hearts", 7 },
+        { "8_of_hearts", 8 },
+        { "9_of_hearts", 9 },
+        { "10_of_hearts", 10 },
+        { "jack_of_hearts", 11},
+        { "queen_of_hearts", 12},
+        { "king_of_hearts", 13},
 
-        // ... Add all the cards with their values
-        { "King of Spades", 13 }
-        // Repeat for other suits: Hearts, Diamonds, Clubs
+        //spades
+        { "1_of_spades", 14 },
+        { "2_of_spades", 2 },
+        { "3_of_spades", 3 },
+        { "4_of_spades", 4 },
+        { "5_of_spades", 5 },
+        { "6_of_spades", 6 },
+        { "7_of_spades", 7 },
+        { "8_of_spades", 8 },
+        { "9_of_spades", 9 },
+        { "10_of_spades", 10 },
+        { "jack_of_spades", 11},
+        { "queen_of_spades", 12},
+        { "king_of_spades", 13},
+
+        //diamonds
+        { "1_of_diamonds", 14 },
+        { "2_of_diamonds", 2 },
+        { "3_of_diamonds", 3 },
+        { "4_of_diamonds", 4 },
+        { "5_of_diamonds", 5 },
+        { "6_of_diamonds", 6 },
+        { "7_of_diamonds", 7 },
+        { "8_of_diamonds", 8 },
+        { "9_of_diamonds", 9 },
+        { "10_of_diamonds", 10 },
+        { "jack_of_diamonds", 11},
+        { "queen_of_diamonds", 12},
+        { "king_of_diamonds", 13},
+
+        //clubs
+        { "1_of_clubs", 14 },
+        { "2_of_clubs", 2 },
+        { "3_of_clubs", 3 },
+        { "4_of_clubs", 4 },
+        { "5_of_clubs", 5 },
+        { "6_of_clubs", 6 },
+        { "7_of_clubs", 7 },
+        { "8_of_clubs", 8 },
+        { "9_of_clubs", 9 },
+        { "10_of_clubs", 10 },
+        { "jack_of_clubs", 11},
+        { "queen_of_clubs", 12},
+        { "king_of_clubs", 13}
+
     };
 
     void Start()
@@ -54,13 +106,8 @@ public class FightManager : MonoBehaviour
 
             string card1 = cards[0];
             string card2 = cards[1];
-            Debug.Log("AAAAAAAAA do sem pride AAAAAAAAAAAAAA");
             if (cardValues.ContainsKey(card1) && cardValues.ContainsKey(card2))
             {
-
-
-                Debug.Log("BBBBBBBBBBBBBBBB do sm pride BBBBBBBBBBBBBBBBBBBBBBB");
-
                 int value1 = cardValues[card1];
                 int value2 = cardValues[card2];
 
