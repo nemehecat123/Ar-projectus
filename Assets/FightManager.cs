@@ -2,11 +2,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class FightManager : MonoBehaviour
 {
     public Button fightButton;
     private HashSet<string> detectedCards = new HashSet<string>();
+    public TextMeshProUGUI resultText;
 
     private Dictionary<string, int> cardValues = new Dictionary<string, int>
     {
@@ -95,10 +97,13 @@ public class FightManager : MonoBehaviour
         if (detectedCards.Count == 0)
         {
             Debug.Log("No cards detected.");
+            resultText.text = "No cards detected.";
         }
         else if (detectedCards.Count == 1)
         {
             Debug.Log("There is only one card detected. Two are required to play this game. Get one more. ");
+            resultText.text = "Get one more card.";
+
         }
         else
         {
@@ -114,14 +119,21 @@ public class FightManager : MonoBehaviour
                 if (value1 > value2)
                 {
                     Debug.Log(card1 + " wins against " + card2);
+                    resultText.text = card1 + "WINS!" ;
+
                 }
                 else if (value1 < value2)
                 {
                     Debug.Log(card2 + " wins against " + card1);
+                    resultText.text = card2 + "WINS!";
+
+
                 }
                 else
                 {
                     Debug.Log(card1 + " and " + card2 + " are equal!");
+                    resultText.text = "IT IS A TIE.";
+
                 }
             }
 
