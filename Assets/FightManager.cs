@@ -3,6 +3,8 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
+
 
 public class FightManager : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class FightManager : MonoBehaviour
     private Dictionary<string, int> cardValues = new Dictionary<string, int>
     {
         //hearts
-        { "1_of_hearts", 14 }, 
+        { "1_of_hearts", 14 },
         { "2_of_hearts", 2 },
         { "3_of_hearts", 3 },
         { "4_of_hearts", 4 },
@@ -98,11 +100,15 @@ public class FightManager : MonoBehaviour
         {
             Debug.Log("No cards detected.");
             resultText.text = "No cards detected.";
+            StartCoroutine(HideResultTextAfterDelay(3));
+
         }
         else if (detectedCards.Count == 1)
         {
             Debug.Log("There is only one card detected. Two are required to play this game. Get one more. ");
             resultText.text = "Get one more card.";
+            StartCoroutine(HideResultTextAfterDelay(3));
+
 
         }
         else
@@ -119,24 +125,38 @@ public class FightManager : MonoBehaviour
                 if (value1 > value2)
                 {
                     Debug.Log(card1 + " wins against " + card2);
-                    resultText.text = card1 + "WINS!" ;
+                    resultText.text = card1 + "WINS!";
+                    StartCoroutine(HideResultTextAfterDelay(3));
 
                 }
                 else if (value1 < value2)
                 {
                     Debug.Log(card2 + " wins against " + card1);
                     resultText.text = card2 + "WINS!";
-
+                    StartCoroutine(HideResultTextAfterDelay(3));
 
                 }
                 else
                 {
                     Debug.Log(card1 + " and " + card2 + " are equal!");
                     resultText.text = "IT IS A TIE.";
-
+                    StartCoroutine(HideResultTextAfterDelay(3));
                 }
             }
 
+        }
+
+
+
+
+    }
+
+    public IEnumerator HideResultTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (resultText != null)
+        {
+            resultText.text = "";
         }
     }
 }
